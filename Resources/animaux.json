@@ -1,0 +1,10 @@
+{
+    "id": "animaux_001",
+    "imageName": "girafe",
+    "correctWord": "Girafe",
+    "level": 1,
+    "difficulty": "easy",
+    "hint": "Le plus grand animal terrestre du monde",
+    "tags": ["savane", "mammifère"],
+    "funFact": "La girafe peut nettoyer ses oreilles avec sa langue de 45 cm !"
+  }

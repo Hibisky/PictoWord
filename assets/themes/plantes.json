@@ -1,0 +1,96 @@
+{
+    "theme": "Plantes",
+    "icon": "🌱",
+    "description": "Découvrir les plantes et leurs caractéristiques.",
+    
+    "questions": [
+      {
+        "image": "plantes/bambou.JPG",
+        "answer": "Bambou",
+        "difficulty": 1,
+        "category": "plante_aquatique",
+        "explanation": "Le bambou est une plante qui pousse rapidement et est souvent utilisée dans la construction."
+      },
+  
+      {
+        "image": "plantes/cactus.JPG",
+        "answer": "Cactus",
+        "difficulty": 1,
+        "category": "plante_desert",
+        "explanation": "Le cactus est une plante adaptée aux milieux secs."
+      },
+
+      {
+        "image": "plantes/chrysantheme.JPG",
+        "answer": "Chrysantheme",
+        "difficulty": 3,
+        "category": "fleur",
+        "explanation": "Le chrysanthème est une fleur souvent associée à la Toussaint."
+      },
+
+      {
+        "image": "plantes/fleur_de_cerisier.JPG",
+        "answer": "Fleur de cerisier",
+        "difficulty": 2,
+        "category": "fleur",
+        "explanation": "La fleur de cerisier est un symbole du Japon."
+      },
+      
+      {
+        "image": "plantes/hyacinte.JPG",
+        "answer": "hyacinte",
+        "difficulty": 2,
+        "category": "plante_des_jardins",
+        "explanation": "L'Hyacinthe est une plante à fleurs très parfumée."
+      },
+      {
+        "image": "plantes/lavande.JPG",
+        "answer": "Lavande",
+        "difficulty": 1,
+        "category": "fleur_des_jardins",
+        "explanation": "La lavande est une plante aromatique très utilisée en parfumerie."
+      },
+      {
+        "image": "plantes/lys.JPG",
+        "answer": "Lys",
+        "difficulty": 1,
+        "category": "fleur",
+        "explanation": "Le lys est une fleur très élégante et symbolique."
+      },
+      {
+        "image": "plantes/Narcisse.JPG",
+        "answer": "Narcisse",
+        "difficulty": 3,
+        "category": "fleur_des_jardins",
+        "explanation": "Le narcisse est une fleur printanière souvent associée à la mythologie grecque."
+      },
+      {
+        "image": "plantes/palmier.JPG",
+        "answer": "Palmier",
+        "difficulty": 1,
+        "category": "arbre",
+        "explanation": "Le palmier est un arbre tropical souvent associé aux plages et aux climats chauds."
+      },
+      {
+        "image": "plantes/rose.JPG",
+        "answer": "Rose",
+        "difficulty": 1,
+        "category": "fleur",
+        "explanation": "La rose est une fleur très connue."
+      },
+      {
+        "image": "plantes/tournesol.JPG",
+        "answer": "Tournesol",
+        "difficulty": 1,
+        "category": "plante",
+        "explanation": "Le tournesol est une plante qui suit le soleil."
+      },
+      {
+        "image": "plantes/tulipe.JPG",
+        "answer": "Tulipe",
+        "difficulty": 1,
+        "category": "arbre_des_jardins",
+        "explanation": "La tulipe est une fleur très populaire au printemps."
+      }
+    ]
+  }

@@ -104,12 +104,9 @@ def test_matching():
 
 def generate_answers(question):
 
-
     wordpool = load_json(WORDPOOL_FILE)
 
-
     words = wordpool["words"]
-
 
     correct = question["answer"]
 
@@ -127,11 +124,61 @@ def generate_answers(question):
     )
 
 
-    return [
+    answers = [
         correct
     ] + wrong_answers
 
 
+    random.shuffle(answers)
+
+
+    return answers
+
+def play_question(question):
+
+
+    answers = generate_answers(question)
+
+
+    print("\n🌱 Question")
+    print("----------------")
+
+    print(
+        "Image :",
+        question["image"]
+    )
+
+
+    print("\nChoisis la bonne réponse :\n")
+
+
+    for index, answer in enumerate(answers):
+
+        print(
+            f"{index+1} - {answer}"
+        )
+
+
+    choice = int(
+        input("\nTa réponse : ")
+    )
+
+
+    selected = answers[choice-1]
+
+
+    if selected == question["answer"]:
+
+        print("\n✅ Bonne réponse !")
+
+    else:
+
+        print("\n❌ Mauvaise réponse")
+
+        print(
+            "La bonne réponse était :",
+            question["answer"]
+        )
 
 if __name__ == "__main__":
 
@@ -165,12 +212,4 @@ if __name__ == "__main__":
         "Réponses :"
     )
 
-
-    answers = generate_answers(question)
-
-
-    random.shuffle(answers)
-
-
-    for answer in answers:
-        print("-", answer)
+    play_question(question)

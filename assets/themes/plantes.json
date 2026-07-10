@@ -1,96 +1,159 @@
 {
-    "theme": "Plantes",
-    "icon": "🌱",
-    "description": "Découvrir les plantes et leurs caractéristiques.",
-    
-    "questions": [
-      {
-        "image": "plantes/bambou.JPG",
-        "answer": "Bambou",
-        "difficulty": 1,
-        "category": "plante_aquatique",
-        "explanation": "Le bambou est une plante qui pousse rapidement et est souvent utilisée dans la construction."
-      },
-  
-      {
-        "image": "plantes/cactus.JPG",
-        "answer": "Cactus",
-        "difficulty": 1,
-        "category": "plante_desert",
-        "explanation": "Le cactus est une plante adaptée aux milieux secs."
-      },
+  "theme": "Plantes",
+  "icon": "🌱",
+  "description": "Découvrir les plantes et leurs caractéristiques.",
 
-      {
-        "image": "plantes/chrysantheme.JPG",
-        "answer": "Chrysantheme",
-        "difficulty": 3,
-        "category": "fleur",
-        "explanation": "Le chrysanthème est une fleur souvent associée à la Toussaint."
-      },
+  "questions": [
 
-      {
-        "image": "plantes/fleur_de_cerisier.JPG",
-        "answer": "Fleur de cerisier",
-        "difficulty": 2,
-        "category": "fleur",
-        "explanation": "La fleur de cerisier est un symbole du Japon."
-      },
-      
-      {
-        "image": "plantes/hyacinte.JPG",
-        "answer": "hyacinte",
-        "difficulty": 2,
-        "category": "plante_des_jardins",
-        "explanation": "L'Hyacinthe est une plante à fleurs très parfumée."
-      },
-      {
-        "image": "plantes/lavande.JPG",
-        "answer": "Lavande",
-        "difficulty": 1,
-        "category": "fleur_des_jardins",
-        "explanation": "La lavande est une plante aromatique très utilisée en parfumerie."
-      },
-      {
-        "image": "plantes/lys.JPG",
-        "answer": "Lys",
-        "difficulty": 1,
-        "category": "fleur",
-        "explanation": "Le lys est une fleur très élégante et symbolique."
-      },
-      {
-        "image": "plantes/Narcisse.JPG",
-        "answer": "Narcisse",
-        "difficulty": 3,
-        "category": "fleur_des_jardins",
-        "explanation": "Le narcisse est une fleur printanière souvent associée à la mythologie grecque."
-      },
-      {
-        "image": "plantes/palmier.JPG",
-        "answer": "Palmier",
-        "difficulty": 1,
-        "category": "arbre",
-        "explanation": "Le palmier est un arbre tropical souvent associé aux plages et aux climats chauds."
-      },
-      {
-        "image": "plantes/rose.JPG",
-        "answer": "Rose",
-        "difficulty": 1,
-        "category": "fleur",
-        "explanation": "La rose est une fleur très connue."
-      },
-      {
-        "image": "plantes/tournesol.JPG",
-        "answer": "Tournesol",
-        "difficulty": 1,
-        "category": "plante",
-        "explanation": "Le tournesol est une plante qui suit le soleil."
-      },
-      {
-        "image": "plantes/tulipe.JPG",
-        "answer": "Tulipe",
-        "difficulty": 1,
-        "category": "arbre_des_jardins",
-        "explanation": "La tulipe est une fleur très populaire au printemps."
-      }
-    ]
-  }
+    {
+      "id": "plantes_001",
+      "image": "plantes/bambou.webp",
+      "answer": "Bambou",
+      "difficulty": 1,
+      "type": "graminee",
+      "environment": "forêt tropicale",
+      "explanation": "Le bambou est une plante qui pousse rapidement et est souvent utilisée dans la construction."
+    },
+
+    {
+      "id": "plantes_002",
+      "image": "plantes/cactus.webp",
+      "answer": "Cactus",
+      "difficulty": 1,
+      "type": "plante",
+      "environment": "désert",
+      "explanation": "Le cactus est une plante adaptée aux milieux secs."
+    },
+
+    {
+      "id": "plantes_003",
+      "image": "plantes/chrysantheme.webp",
+      "answer": "Chrysanthème",
+      "difficulty": 3,
+      "type": "fleur",
+      "environment": "jardin",
+      "explanation": "Le chrysanthème est une fleur souvent associée à la Toussaint."
+    },
+
+    {
+      "id": "plantes_004",
+      "image": "plantes/fleur_de_cerisier.webp",
+      "answer": "Fleur de cerisier",
+      "difficulty": 2,
+      "type": "fleur",
+      "environment": "jardin",
+      "explanation": "La fleur de cerisier est un symbole du Japon."
+    },
+
+    {
+      "id": "plantes_005",
+      "image": "plantes/hyacinthe.webp",
+      "answer": "Hyacinthe",
+      "difficulty": 2,
+      "type": "fleur",
+      "environment": "jardin",
+      "explanation": "L'Hyacinthe est une plante à fleurs très parfumée."
+    },
+
+    {
+      "id": "plantes_006",
+      "image": "plantes/lavande.webp",
+      "answer": "Lavande",
+      "difficulty": 1,
+      "type": "fleur",
+      "environment": "jardin",
+      "explanation": "La lavande est une plante aromatique très utilisée en parfumerie."
+    },
+
+    {
+      "id": "plantes_007",
+      "image": "plantes/lys.webp",
+      "answer": "Lys",
+      "difficulty": 1,
+      "type": "fleur",
+      "environment": "jardin",
+      "explanation": "Le lys est une fleur très élégante et symbolique."
+    },
+
+    {
+      "id": "plantes_008",
+      "image": "plantes/narcisse.webp",
+      "answer": "Narcisse",
+      "difficulty": 3,
+      "type": "fleur",
+      "environment": "jardin",
+      "explanation": "Le narcisse est une fleur printanière souvent associée à la mythologie grecque."
+    },
+
+    {
+      "id": "plantes_009",
+      "image": "plantes/palmier.webp",
+      "answer": "Palmier",
+      "difficulty": 1,
+      "type": "arbre",
+      "environment": "plage",
+      "explanation": "Le palmier est un arbre tropical souvent associé aux plages et aux climats chauds."
+    },
+
+    {
+      "id": "plantes_010",
+      "image": "plantes/rose.webp",
+      "answer": "Rose",
+      "difficulty": 1,
+      "type": "fleur",
+      "environment": "jardin",
+      "explanation": "La rose est une fleur très connue."
+    },
+
+    {
+      "id": "plantes_011",
+      "image": "plantes/tournesol.webp",
+      "answer": "Tournesol",
+      "difficulty": 1,
+      "type": "fleur",
+      "environment": "jardin",
+      "explanation": "Le tournesol est une plante qui suit le soleil."
+    },
+
+    {
+      "id": "plantes_012",
+      "image": "plantes/tulipe.webp",
+      "answer": "Tulipe",
+      "difficulty": 1,
+      "type": "fleur",
+      "environment": "jardin",
+      "explanation": "La tulipe est une fleur très populaire au printemps."
+    },
+
+    {
+      "id": "plantes_013",
+      "image": "plantes/orchidee.webp",
+      "answer": "Orchidée",
+      "difficulty": 2,
+      "type": "fleur",
+      "environment": "tropical",
+      "explanation": "L'orchidée est une fleur exotique très prisée pour sa beauté."
+    },
+
+    {
+      "id": "plantes_014",
+      "image": "plantes/fougere.webp",
+      "answer": "Fougère",
+      "difficulty": 2,
+      "type": "plante",
+      "environment": "forêt",
+      "explanation": "La fougère est une plante sans fleurs qui se reproduit par spores."
+    },
+
+    {
+      "id": "plantes_015",
+      "image": "plantes/bonsai.webp",
+      "answer": "Bonsaï",
+      "difficulty": 3,
+      "type": "arbre",
+      "environment": "intérieur",
+      "explanation": "Le bonsaï est un arbre miniature cultivé dans un pot."
+    }
+
+  ]
+}

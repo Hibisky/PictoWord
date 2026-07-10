@@ -1,0 +1,127 @@
+{
+  "theme": "Plantes",
+
+  "words": [
+
+    {
+      "id": "word_001",
+      "word": "Bambou",
+      "type": "graminee",
+      "environment": "forêt tropicale",
+      "difficulty": 1
+    },
+
+    {
+      "id": "word_002",
+      "word": "Cactus",
+      "type": "plante",
+      "environment": "désert",
+      "difficulty": 1
+    },
+
+    {
+      "id": "word_003",
+      "word": "Chrysanthème",
+      "type": "fleur",
+      "environment": "jardin",
+      "difficulty": 3
+    },
+
+    {
+      "id": "word_004",
+      "word": "Fleur de cerisier",
+      "type": "fleur",
+      "environment": "jardin",
+      "difficulty": 2
+    },
+
+    {
+      "id": "word_005",
+      "word": "Hyacinthe",
+      "type": "fleur",
+      "environment": "jardin",
+      "difficulty": 2
+    },
+
+    {
+      "id": "word_006",
+      "word": "Lavande",
+      "type": "fleur",
+      "environment": "jardin",
+      "difficulty": 1
+    },
+
+    {
+      "id": "word_007",
+      "word": "Lys",
+      "type": "fleur",
+      "environment": "jardin",
+      "difficulty": 1
+    },
+
+    {
+      "id": "word_008",
+      "word": "Narcisse",
+      "type": "fleur",
+      "environment": "jardin",
+      "difficulty": 3
+    },
+
+    {
+      "id": "word_009",
+      "word": "Palmier",
+      "type": "arbre",
+      "environment": "plage",
+      "difficulty": 1
+    },
+
+    {
+      "id": "word_010",
+      "word": "Rose",
+      "type": "fleur",
+      "environment": "jardin",
+      "difficulty": 1
+    },
+
+    {
+      "id": "word_011",
+      "word": "Tournesol",
+      "type": "fleur",
+      "environment": "jardin",
+      "difficulty": 1
+    },
+
+    {
+      "id": "word_012",
+      "word": "Tulipe",
+      "type": "fleur",
+      "environment": "jardin",
+      "difficulty": 1
+    },
+
+    {
+      "id": "word_013",
+      "word": "Orchidée",
+      "type": "fleur",
+      "environment": "tropical",
+      "difficulty": 2
+    },
+
+    {
+      "id": "word_014",
+      "word": "Fougère",
+      "type": "plante",
+      "environment": "forêt",
+      "difficulty": 2
+    },
+
+    {
+      "id": "word_015",
+      "word": "Bonsaï",
+      "type": "arbre",
+      "environment": "intérieur",
+      "difficulty": 3
+    }
+
+  ]
+}

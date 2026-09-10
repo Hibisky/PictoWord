@@ -3,66 +3,35 @@ import 'package:path/path.dart';
 
 import 'database_tables.dart';
 
-
 class AppDatabase {
+  static Database? _database;
 
+  static Future<Database> get database async {
+    if (_database != null) {
+      return _database!;
+    }
 
-static Database? _database;
+    _database = await _initDatabase();
 
+    return _database!;
+  }
 
-static Future<Database> get database async{
+  static Future<Database> _initDatabase() async {
+    final path = join(await getDatabasesPath(), 'pictoword.db');
 
-if(_database != null){
-return _database!;
-}
+    return openDatabase(
+      path,
+      version: 1,
 
+      onCreate: (db, version) async {
+        await db.execute(DatabaseTables.themes);
 
-_database = await _initDatabase();
+        await db.execute(DatabaseTables.levels);
 
-return _database!;
+        await db.execute(DatabaseTables.questions);
 
-}
-
-
-
-static Future<Database> _initDatabase() async{
-
-
-final path = join(
-await getDatabasesPath(),
-'pictoword.db'
-);
-
-
-
-return openDatabase(
-path,
-version:1,
-
-onCreate:(db,version) async{
-
-
-await db.execute(
-DatabaseTables.themes
-);
-
-await db.execute(
-DatabaseTables.levels
-);
-
-await db.execute(
-DatabaseTables.questions
-);
-
-await db.execute(
-DatabaseTables.words
-);
-
-
-});
-
-
-}
-
-
+        await db.execute(DatabaseTables.words);
+      },
+    );
+  }
 }

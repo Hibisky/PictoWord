@@ -35,8 +35,8 @@ flutter:
     - assets/wordpool/taekwondo_words.json
     - assets/wordpool/voitures_words.json
 
-    - assets/images/animaux
-    - assets/images/drapeaux
-    - assets/images/plantes
-    - assets/images/taekwondo
-    - assets/images/voitures
+    - assets/images/animaux/
+    - assets/images/drapeaux/
+    - assets/images/plantes/
+    - assets/images/taekwondo/
+    - assets/images/voitures/

@@ -23,6 +23,20 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/themes/
-    - assets/wordpool/
-    - assets/images/
+    - assets/themes/animaux.json
+    - assets/themes/drapeaux.json
+    - assets/themes/plantes.json
+    - assets/themes/taekwondo.json
+    - assets/themes/voitures.json
+
+    - assets/wordpool/animaux_words.json
+    - assets/wordpool/drapeaux_words.json
+    - assets/wordpool/plantes_words.json
+    - assets/wordpool/taekwondo_words.json
+    - assets/wordpool/voitures_words.json
+
+    - assets/images/animaux
+    - assets/images/drapeaux
+    - assets/images/plantes
+    - assets/images/taekwondo
+    - assets/images/voitures

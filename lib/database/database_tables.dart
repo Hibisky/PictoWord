@@ -1,6 +1,5 @@
 class DatabaseTables {
-
-static const themes = '''
+  static const themes = '''
 CREATE TABLE themes(
 id INTEGER PRIMARY KEY AUTOINCREMENT,
 name TEXT NOT NULL,
@@ -9,8 +8,7 @@ icon TEXT
 )
 ''';
 
-
-static const levels = '''
+  static const levels = '''
 CREATE TABLE levels(
 id INTEGER PRIMARY KEY AUTOINCREMENT,
 theme_id INTEGER,
@@ -19,8 +17,7 @@ difficulty INTEGER
 )
 ''';
 
-
-static const questions = '''
+  static const questions = '''
 CREATE TABLE questions(
 id INTEGER PRIMARY KEY AUTOINCREMENT,
 level_id INTEGER,
@@ -31,8 +28,7 @@ explanation TEXT
 )
 ''';
 
-
-static const words = '''
+  static const words = '''
 CREATE TABLE words(
 id INTEGER PRIMARY KEY AUTOINCREMENT,
 theme_id INTEGER,
@@ -41,6 +37,4 @@ category TEXT,
 difficulty INTEGER
 )
 ''';
-
-
 }

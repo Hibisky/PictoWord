@@ -47,8 +47,29 @@ check:
 	$(MAKE) analyze
 	$(MAKE) test
 
+run-simulator:
+	open -a Simulator
+	$(FLUTTER) run -d simulator
+	xcrun simctl list devices | grep -E "iPhone|Booted"
+	flutter devices
+	flutter run -d "iPhone 16e"
+
+run-maison:
+	flutter clean
+	flutter pub get
+	flutter run -d 8B8C883A-30F1-45BA-99FF-7C4107989DB1
+
 run:
 	$(FLUTTER) run
 
 clean:
 	$(FLUTTER) clean
+	flutter clean
+	rm -rf ~/Library/Developer/Xcode/DerivedData/*
+	flutter pub get
+
+pod-clean:
+	cd ios
+	pod deintegrate
+	pod install
+	cd ..

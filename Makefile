@@ -57,7 +57,7 @@ run-simulator:
 run-maison:
 	flutter clean
 	flutter pub get
-	flutter run -d 8B8C883A-30F1-45BA-99FF-7C4107989DB1
+	flutter run -d "iPhone 17"
 
 run:
 	$(FLUTTER) run

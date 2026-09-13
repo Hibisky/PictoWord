@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 /// Page affichée au tout premier lancement de l'app.
 /// Objectif : savoir immédiatement si l'app charge correctement
-/// (assets, base de données, etc.) ou s'il y a un problème en amont.
+/// (base de données, assets, etc.) ou s'il y a un problème en amont.
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
 
@@ -25,18 +25,17 @@ class _SplashScreenState extends State<SplashScreen> {
   Future<void> _checkAppReady() async {
     try {
       // TODO: remplace ce délai par tes vraies vérifications, par ex :
-      // - ouverture/initialisation de la base sqflite
-      // - lecture d'un thème (ex: assets/themes/animaux.json)
+      // - initialisation de la base (lib/database/app_database.dart)
+      // - lecture d'un thème (features/themes/repository/theme_repository.dart)
       // - chargement d'une image test depuis assets/images
       await Future.delayed(const Duration(milliseconds: 500));
 
       if (!mounted) return;
       setState(() => _state = _LoadState.success);
 
-      // Petite pause pour laisser voir le "succès", puis on enchaîne
       await Future.delayed(const Duration(seconds: 1));
       if (mounted) {
-        Navigator.of(context).pushReplacementNamed('/home');
+        Navigator.of(context).pushReplacementNamed('/game');
       }
     } catch (e) {
       if (!mounted) return;
